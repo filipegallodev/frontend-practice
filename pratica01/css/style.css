@@ -4,6 +4,7 @@ body {
    background-color: rgba(0, 110, 255, 0.849);
    font-size: 1.3em;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   cursor: default;
 }
 
 header {
@@ -22,6 +23,7 @@ section {
    border-radius: 10px;
    margin: auto;
    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.342);
+   
 }
 
 input {
@@ -37,6 +39,11 @@ input {
 
 input#masc, input#femi {
    width: 15px;
+   cursor: pointer;
+}
+
+label {
+   cursor: pointer;
 }
 
 footer {
@@ -56,4 +63,5 @@ footer {
    border-color: rgb(0, 195, 255);
    color: white;
    font-size: 1em;
+   cursor: pointer;
 }
